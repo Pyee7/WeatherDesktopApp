@@ -1,0 +1,224 @@
+/* Name = Krishal Maharjan
+Id = 2408955 */
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        background-image: url("https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        backdrop-filter: blur(5px);
+        background-repeat: no-repeat;
+        background-size:1400px 1000px;
+    }
+    .WholeBody{
+        margin: 55px 200px;
+        padding: 30px;
+        border-radius: 20px;
+        height: 500px;
+        width: 850px;
+        display: inline-flexbox;
+        background:rgba(255, 255, 255, 0.24);
+    }
+    .display{
+        margin: 10px;
+        padding: 20px;
+        background:rgba(255, 255, 255, 0.733);
+        border-radius: 20px;
+        width: 350px;
+        height: 430px;
+        display:inline-block;
+    }
+
+    .right-display{
+        color:rgb(16, 52, 66);
+        float: right;
+        font-size: 35px;
+        margin: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .things{
+        padding: 30px;
+        margin-top: 190px;
+    }
+    .celsius{
+        text-align: center;
+        font-size: 75px;
+        float: right;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .details{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        width: 400px;
+        height: 180px;
+        float: right;
+        text-align: center;  
+    
+    }
+    .humidity{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 90px;
+        height: 142px;
+        float: inherit;
+        background:rgba(255, 255, 255, 0.733);
+        backdrop-filter: blur(15px);
+        cursor: pointer;
+    }
+    .wind{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        background:rgba(255, 255, 255, 0.733);
+        backdrop-filter: blur(15px);
+        width: 90px;
+        height: 142px;
+        float: inherit;
+        cursor: pointer;
+        
+    }
+    .pressure{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        background:rgba(255, 255, 255, 0.733);
+        backdrop-filter: blur(15px);
+        width: 90px;
+        height: 142px;
+        float: inherit;
+        cursor: pointer;
+    
+    }
+    footer{
+        text-align: center;
+        background:rgba(255, 255, 255, 0.733);
+        display: fixed;
+    }
+    input{
+        text-align: center;
+        border-radius: 20px;
+        width: 205px;
+        height: 9px;
+        padding: 20px;
+        margin: 10px;
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    img.search{
+        width: 30px;
+        height: 30px;
+    }
+    button{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    img.weather{
+        width: 120px;
+        height: 120px;
+        margin: 10px;
+        float: left;
+        padding: 10px;
+    
+    }
+    .forcast{
+        float: right;
+        text-align: right;
+        font-size: 35px;
+        margin: 10px;
+        margin-top: 10px;
+        font-weight:bolder;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .icons{
+        width: 75px;
+        height: 85px;
+        padding: 10px;
+    }
+    h1{
+        font-size: 17px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    .seven-days-data{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        width: 370px;
+        height: 240px;
+        float: left;
+        text-align: center;
+        background:rgba(255, 255, 255, 0.381);
+        font-weight: 700;
+
+    }
+    .days{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        background:rgba(255, 255, 255, 0.733);
+        backdrop-filter: blur(15px);
+        width: 47px;
+        height: 73px;
+        float: inherit;
+        font-size: 10px;
+        font-weight:900;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+img.icon1{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    padding: 0px;
+    display: inline-block;
+}
+img.icon2{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    padding: 0px;
+    display: inline-block;
+}
+img.icon3{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    padding: 0px;
+    display: inline-block;
+}
+img.icon4{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    padding: 0px;
+    display: inline-block;
+}
+img.icon5{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    padding: 0px;
+    display: inline-block;
+}
+img.icon6{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    padding: 0px;
+    display: inline-block;
+}
+img.icon7{
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    padding: 0px;
+    display: inline-block;
+}
